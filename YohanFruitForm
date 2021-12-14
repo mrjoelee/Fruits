@@ -1,0 +1,36 @@
+Create a form (name, price, country)
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Fruit input form</title>
+</head>
+<body>
+    <h1> FRUIT INPUT FORM</h1>
+
+    <form action="/action_page.php">
+        <label for="name">Name: </label><br>
+        <input type="text" id="name" value="Apple" /><br>
+
+        <label for="price">Price:</label><br>
+        <input type="text" id="price" value="$1.00" /><br>
+
+        <label for="country">Country:</label><br>
+        <input type="text" id="country" value="USA" /><br>
+        <input type="button" value="info"><br>
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" value="Pineapple" /><br>
+
+        <label for="price">Price:</label><br>
+        <input type="text" id="price" value="$5.00" /><br>
+
+        <label for="country">Country:</label><br>
+        <input type="text" id="country" value="USA" /><br>
+        <input type="button" value="info"><br>
+        <input type="button" value="compare"><br>
+    </form>
+</body>
+</html>
